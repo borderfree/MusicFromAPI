@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/map_container" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.google.android.gms.maps.MapView android:id="@+id/map" android:layout_width="match_parent" android:layout_height="match_parent"/>
-    <ImageButton android:id="@+id/buttonGoogleMapType" android:background="@drawable/round_corner" android:layout_width="38dp" android:layout_height="38dp" android:layout_marginLeft="12dp" android:layout_marginBottom="32dp" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true" android:alpha="0.8"/>
-</RelativeLayout>

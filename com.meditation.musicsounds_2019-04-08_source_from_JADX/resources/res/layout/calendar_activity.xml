@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <com.jasonkostempski.android.calendar.CalendarView android:id="@+id/calendar_view" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent"/>
-    <LinearLayout android:gravity="center" android:id="@+id/loading_view" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
-        <ProgressBar android:id="@+id/progress_bar" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-        <TextView android:textSize="20sp" android:id="@+id/loading_text" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:text="@string/calendar_syncing_events"/>
-    </LinearLayout>
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:id="@+id/vrl_menu_use" android:title="@string/use_voicerecord" app:showAsAction="ifRoom"/>
-    <item android:id="@+id/vrl_menu_retake" android:title="@string/retake_voicerecord" app:showAsAction="ifRoom"/>
-    <item android:id="@+id/vrl_menu_cancel" android:title="@string/cancel_voicerecord" app:showAsAction="ifRoom"/>
-</menu>

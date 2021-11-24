@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="http://www.w3.org/ns/widgets" xmlns:aapt="http://schemas.android.com/aapt">
-    <SwitchPreference android:title="@string/previewer_settings_show_ads_title" android:key="@string/previewer_settings_show_ads_key" android:summary="@string/previewer_settings_show_ads_summary" android:defaultValue="false"/>
-</PreferenceScreen>

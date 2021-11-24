@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="180dp">
-    <ImageView android:id="@+id/product_order_detail_image" android:layout_width="match_parent" android:layout_height="300dp" android:src="@drawable/order_default_img" android:scaleType="fitCenter" android:contentDescription="@string/product_order_description_field_title"/>
-</LinearLayout>

@@ -1,9 +1,0 @@
-/*radiostreamingcssaddition*/
-.radiostream_container
-{
-    background: url(radiostream-background.png) no-repeat;
-    background-size: cover;
-    min-height:400px;
-    text-align: center;
-}
-.coverimage img{width:80%; padding: 30px 0}

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:icon="@drawable/ic_action_edit_alpha" android:id="@+id/scoreboard_clear_score_menubutton" android:title="@string/scoreboard_clear_button_title" app:showAsAction="ifRoom"/>
-    <item android:icon="@drawable/ic_action_share_alpha" android:id="@+id/scoreboard_post_via_menubutton" android:title="@string/scoreboard_post_via_button_title" app:showAsAction="ifRoom"/>
-</menu>

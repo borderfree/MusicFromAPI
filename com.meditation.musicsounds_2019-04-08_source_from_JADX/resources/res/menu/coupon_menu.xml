@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:id="@+id/coupon_menu_checkin" android:title="@string/coupone_checkin_bt" app:showAsAction="ifRoom"/>
-    <item android:id="@+id/coupon_menu_scan" android:title="@string/coupone_scan_bt" app:showAsAction="ifRoom"/>
-</menu>

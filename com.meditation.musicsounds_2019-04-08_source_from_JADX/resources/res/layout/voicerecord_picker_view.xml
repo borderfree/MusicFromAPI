@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <ImageView android:id="@+id/imageView1" android:layout_width="match_parent" android:layout_height="wrap_content" android:src="@drawable/vr_microphone" android:layout_weight="2" android:contentDescription="@string/empty_content_description"/>
-    <LinearLayout android:background="@drawable/vr_background" android:layout_width="match_parent" android:layout_height="wrap_content" android:maxHeight="106dp">
-        <ImageButton android:layout_gravity="center" android:id="@+id/vrl_record_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="10dp" android:layout_marginRight="5dp" android:src="@drawable/vr_record" android:contentDescription="@string/startrecord_voicerecord"/>
-        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#fff" android:gravity="center" android:layout_gravity="center" android:id="@+id/vrl_time_label" android:layout_width="0dp" android:layout_height="match_parent" android:text="00:00:00" android:layout_weight="1"/>
-        <ImageButton android:layout_gravity="center" android:id="@+id/vrl_stoprecord_button" android:background="@null" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_marginLeft="5dp" android:layout_marginRight="10dp" android:src="@drawable/vr_picker_button_stop" android:contentDescription="@string/stoprecord_voicerecord"/>
-    </LinearLayout>
-</LinearLayout>

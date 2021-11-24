@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:background="#000" android:layout_width="match_parent" android:layout_height="match_parent">
-    <ImageView android:id="@+id/full_image" android:layout_width="match_parent" android:layout_height="match_parent" android:contentDescription="@string/empty_content_description"/>
-    <ProgressBar android:layout_gravity="center" android:id="@+id/progressBar" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-    <Gallery android:gravity="bottom" android:layout_gravity="bottom" android:id="@+id/thumbnail_gallery" android:layout_width="match_parent" android:layout_height="120dp" android:layout_marginLeft="10dp" android:layout_marginRight="10dp" android:layout_marginBottom="10dp" android:spacing="5dp"/>
-</FrameLayout>

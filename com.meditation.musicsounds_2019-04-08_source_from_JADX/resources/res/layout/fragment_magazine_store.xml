@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <GridView android:scrollbarStyle="outsideOverlay" android:id="@+id/grid" android:paddingLeft="6dp" android:paddingTop="8dp" android:paddingRight="6dp" android:paddingBottom="8dp" android:clipToPadding="false" android:layout_width="match_parent" android:layout_height="match_parent" android:listSelector="@android:color/transparent" android:horizontalSpacing="3dp" android:verticalSpacing="2dp" android:numColumns="2"/>
-</LinearLayout>
