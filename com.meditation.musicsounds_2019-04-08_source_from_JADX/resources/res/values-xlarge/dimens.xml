@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="abc_dialog_fixed_width_major">50%</dimen>
+    <dimen name="abc_dialog_fixed_width_minor">70%</dimen>
+    <dimen name="abc_dialog_min_width_major">45%</dimen>
+    <dimen name="abc_dialog_min_width_minor">72%</dimen>
+    <dimen name="magazine_card_spacing">12dp</dimen>
+    <dimen name="magazine_cover_width">188dp</dimen>
+    <dimen name="magazine_details_action_button_font_size">20sp</dimen>
+</resources>

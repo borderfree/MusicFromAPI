@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_action_template_preview" android:id="@+id/templates_preview" android:title="@string/previewer_templates_preview" app:showAsAction="ifRoom"/>
+</menu>

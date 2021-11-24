@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.p009v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:focusable="true" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16dp" android:paddingStart="16dp" android:paddingEnd="16dp">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="6dp">
+            <ImageView android:id="@+id/image_view_template" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_web_new_order"/>
+            <android.support.design.widget.TextInputLayout android:id="@+id/template_order_error" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_toRightOf="@+id/image_view_template" android:layout_alignParentRight="true" android:layout_marginStart="16dp" android:layout_toEndOf="@+id/image_view_template" android:layout_alignParentEnd="true" app:errorEnabled="true" app:hintEnabled="false">
+                <EditText android:textSize="16sp" android:id="@+id/template_order" android:focusable="false" android:focusableInTouchMode="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/new_order_design_select_template" android:inputType="textEmailAddress" style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="72dp">
+            <ImageView android:id="@+id/image_view_device_type" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginBottom="8dp" android:adjustViewBounds="false" android:layout_alignBottom="@+id/spinner_theme_order" app:srcCompat="@drawable/ic_color_lens_new_order"/>
+            <android.support.p023v7.widget.AppCompatSpinner android:gravity="top" android:id="@+id/spinner_theme_order" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginStart="40dp" style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:minHeight="72dp">
+            <ImageView android:id="@+id/image_view_color" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_invert_colors_new_order"/>
+            <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_toRightOf="@+id/image_view_color" android:layout_alignParentRight="true" android:layout_marginStart="16dp" android:layout_toEndOf="@+id/image_view_color" android:layout_alignParentEnd="true" app:errorEnabled="true" app:hintEnabled="false">
+                <EditText android:textSize="16sp" android:id="@+id/edit_text_pick_primary_color_order" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/new_order_design_primary_color" style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:minHeight="72dp">
+            <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_alignParentRight="true" android:layout_marginStart="40dp" android:layout_alignParentEnd="true" app:errorEnabled="true" app:hintEnabled="false">
+                <EditText android:textSize="16sp" android:id="@+id/edit_text_pick_your_accent_color_order" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/new_order_design_accent_color" style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:minHeight="72dp">
+            <ImageView android:id="@+id/image_view_photo" android:paddingTop="4dp" android:layout_width="wrap_content" android:layout_height="wrap_content" app:srcCompat="@drawable/ic_attach_file_new_order"/>
+            <android.support.design.widget.TextInputLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_toRightOf="@+id/image_view_photo" android:layout_alignParentRight="true" android:layout_marginStart="16dp" android:layout_toEndOf="@+id/image_view_photo" android:layout_alignParentEnd="true" app:errorEnabled="true" app:hintEnabled="false">
+                <EditText android:textSize="16sp" android:id="@+id/edit_text_chose_file_order" android:focusable="false" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/new_order_design_choose_file" style="@style/Base.Widget.AppCompat.Spinner.Underlined"/>
+            </android.support.design.widget.TextInputLayout>
+        </RelativeLayout>
+    </LinearLayout>
+</android.support.p009v4.widget.NestedScrollView>

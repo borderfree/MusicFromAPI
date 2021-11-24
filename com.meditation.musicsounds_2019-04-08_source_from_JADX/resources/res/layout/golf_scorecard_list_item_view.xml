@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/scorecard_header_linear_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center" android:id="@+id/golf_sc_hole_txtview" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/scoreboard_zero" android:layout_weight="4"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center" android:id="@+id/golf_sc_par_txtview" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/scoreboard_zero" android:layout_weight="4"/>
+    <Spinner android:id="@+id/golf_sc_player1_score_spinner" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="4"/>
+    <Spinner android:id="@+id/golf_sc_player2_score_spinner" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="4"/>
+</LinearLayout>

@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" xmlns:cdv="http://cordova.apache.org/ns/1.0" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns="http://www.w3.org/ns/widgets" xmlns:aapt="http://schemas.android.com/aapt">
+    <Preference android:title="@string/settings_pref_force_sync" android:key="pref_forceSync" android:summary="@string/settings_pref_force_sync_summary"/>
+    <Preference android:title="@string/settings_pref_clear_resources" android:key="pref_clearResources" android:summary="@string/settings_pref_clear_resources_summary"/>
+    <Preference android:title="@string/settings_pref_app_user_sign_out" android:key="pref_appUserSignOut" android:summary="@string/settings_pref_app_user_sign_out_summary"/>
+    <Preference android:title="@string/settings_pref_app_user_sign_out" android:key="pref_removeAds" android:summary="@string/settings_pref_app_user_sign_out_summary"/>
+</PreferenceScreen>

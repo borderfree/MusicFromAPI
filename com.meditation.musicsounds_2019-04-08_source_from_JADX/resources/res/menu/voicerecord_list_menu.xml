@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_action_add_alpha" android:id="@+id/new_voicerecord" android:title="@string/new_voice_record" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/ic_action_send_alpha" android:id="@+id/voicerecordlist_send_all" android:title="@string/voicerecordlist_send_all" app:showAsAction="never"/>
+    <item android:id="@+id/voicerecordlist_send_all_by_ftp" android:title="@string/voicerecordlist_send_all_by_ftp" app:showAsAction="never"/>
+</menu>

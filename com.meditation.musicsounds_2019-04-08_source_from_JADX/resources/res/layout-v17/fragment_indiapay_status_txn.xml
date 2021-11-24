@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.p009v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:id="@+id/india_pay_status" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/india_pay_pay_now_layout" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="16dp">
+                <TextView android:textSize="16sp" android:id="@+id/india_pay_pay_now_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="40dp" android:minHeight="60dp"/>
+                <ProgressBar android:id="@+id/india_pay_pay_now_progressBar" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="wrap_content" android:indeterminate="true"/>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:gravity="center" android:id="@+id/india_pay_pay_now_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:minHeight="60dp" android:text="Status:" android:layout_alignParentLeft="true" android:layout_alignParentStart="true"/>
+                    <Button android:id="@+id/india_pay_pay_now_check_status" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/indiapay_check_status" android:layout_alignParentRight="true" android:layout_alignParentEnd="true"/>
+                </RelativeLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:id="@+id/india_pay_qr_code_layout" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginTop="48dp">
+                <TextView android:textAppearance="@style/TextAppearance.AppCompat.Subhead" android:id="@+id/india_pay_qr_code_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:minHeight="72dp"/>
+                <ImageView android:layout_gravity="center_horizontal" android:id="@+id/india_pay_qr_code_imageView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="16dp" android:minWidth="125dp" android:minHeight="125dp" app:srcCompat="@drawable/ic_info_new_order"/>
+            </LinearLayout>
+            <Button android:layout_gravity="center_horizontal" android:id="@+id/india_pay_done_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="32dp" android:text="@string/done" android:foregroundGravity="bottom" android:textAllCaps="false"/>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.p009v4.widget.NestedScrollView>

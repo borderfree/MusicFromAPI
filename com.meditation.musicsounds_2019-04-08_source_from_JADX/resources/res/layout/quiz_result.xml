@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+            <TextView android:textSize="30sp" android:textColor="#000000" android:gravity="center" android:background="#66cc33" android:layout_width="match_parent" android:layout_height="108dp" android:layout_marginLeft="15dp" android:layout_marginRight="15dp" android:text="@string/quiz_result_header"/>
+            <TextView android:textSize="25sp" android:textColor="#66cc33" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/quiz_result_points_label_name"/>
+            <TextView android:textSize="25sp" android:gravity="center" android:id="@+id/quiz_result_score_tw" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/quiz_result_score"/>
+            <EditText android:id="@+id/quiz_result_score_amount" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="40dp" android:layout_marginTop="15dp" android:layout_marginRight="40dp" android:ems="10" android:inputType="textPersonName"/>
+            <TextView android:textSize="12sp" android:textColor="#ffffff" android:gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="15dp" android:text="@string/quiz_result_hint"/>
+            <Button android:id="@+id/quiz_result_finish_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="40dp" android:layout_marginRight="15dp" android:text="@string/quiz_result_finish"/>
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

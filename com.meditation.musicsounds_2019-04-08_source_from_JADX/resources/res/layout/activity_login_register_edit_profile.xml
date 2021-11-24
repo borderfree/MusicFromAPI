@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/login_register_edit_profile_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/login_register_edit_profile_img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+        <RelativeLayout android:id="@+id/login_register_editprofile_rl" android:layout_width="match_parent" android:layout_height="match_parent">
+            <LinearLayout android:orientation="vertical" android:id="@+id/editProfile" android:paddingLeft="16dp" android:paddingTop="56px" android:paddingRight="16dp" android:focusableInTouchMode="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentTop="true">
+                <TextView android:textSize="20dp" android:id="@+id/login_register_editprofile_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/login_register_edit_profile"/>
+                <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="16dp" android:layout_marginTop="20dp" android:layout_marginRight="16dp">
+                    <EditText android:id="@+id/login_register_editprofile_old" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/login_register_editprofile_old" android:ems="10" android:inputType="textPassword"/>
+                    <EditText android:id="@+id/login_register_editprofile_new" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/login_register_editprofile_new" android:ems="10" android:inputType="textPassword"/>
+                    <EditText android:id="@+id/login_register_editprofile_confirm" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/login_register_editprofile_confirm" android:ems="10" android:inputType="textPassword"/>
+                    <EditText android:id="@+id/login_register_editprofile_email" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/login_register_editprofile_email" android:ems="10" android:inputType="textPersonName"/>
+                    <Button android:textSize="18sp" android:gravity="center" android:layout_gravity="center" android:id="@+id/login_register_editprofile_update" android:background="@drawable/button_round_gray" android:layout_width="200dp" android:layout_height="wrap_content" android:text="@string/login_register_editprofile_update"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="vertical" android:paddingLeft="16px" android:paddingTop="20px" android:paddingRight="16px" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_below="@+id/editProfile">
+                <TextView android:textSize="20sp" android:id="@+id/login_register_editprofile_other_settings_tv" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="Other Settings"/>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <LinearLayout android:id="@+id/enableFingerprintForm" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="10">
+                        <TextView android:textSize="18sp" android:id="@+id/lblEnableFingerprint" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/login_margin" android:layout_marginTop="10dp" android:text="@string/edit_profile_lbl_switch_enable_finger_lbl_text" android:layout_weight="8"/>
+                        <android.support.p023v7.widget.SwitchCompat android:id="@+id/swEnableFingerprint" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginRight="30dp" android:layout_weight="2" android:scaleX="1.5" android:scaleY="1.5"/>
+                    </LinearLayout>
+                    <LinearLayout android:id="@+id/keepSignedForm" android:padding="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:weightSum="10" android:layout_below="@+id/enableFingerprintForm">
+                        <TextView android:textSize="18sp" android:id="@+id/lblKeepSigned" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/login_margin" android:layout_marginTop="10dp" android:text="@string/login_register_edit_profile_keep_me_signed" android:layout_weight="8"/>
+                        <android.support.p023v7.widget.SwitchCompat android:id="@+id/swKeepSigned" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginTop="5dp" android:layout_marginRight="30dp" android:layout_weight="2" android:scaleX="1.5" android:scaleY="1.5"/>
+                    </LinearLayout>
+                    <TextView android:textSize="16sp" android:id="@+id/txtKeepLogin" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_marginTop="15dp" android:layout_marginRight="20dp" android:text="@string/txtkeep_you_logged_on" android:layout_below="@+id/keepSignedForm"/>
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+    </FrameLayout>
+</ScrollView>

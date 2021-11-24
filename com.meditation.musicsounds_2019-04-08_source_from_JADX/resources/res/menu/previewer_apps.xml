@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/search" android:title="@string/previewer_search" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/ic_action_previewer_templates_alpha" android:id="@+id/templates" android:title="@string/previewer_templates" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/ic_action_log_in_as_alpha" android:id="@+id/log_in_as" android:title="@string/previewer_log_in_as" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/ic_action_filter_list_alpha" android:id="@+id/filter" android:title="@string/previewer_filter" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/previewer_settings" android:visible="false" android:title="@string/settings_title"/>
+    <item android:id="@+id/refresh" android:title="@string/previewer_refresh"/>
+    <item android:id="@+id/log_out" android:title="@string/previewer_log_out"/>
+</menu>

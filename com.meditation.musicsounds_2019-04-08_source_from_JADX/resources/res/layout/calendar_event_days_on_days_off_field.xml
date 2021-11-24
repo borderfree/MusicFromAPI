@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TableLayout android:id="@+id/days_on_days_off_field_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <TableRow android:id="@+id/tableRow1">
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/days_on_label" android:text="@string/calendar_event_edit_days_on" android:layout_weight="1" style="@style/form_field_label"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:layout_gravity="right" android:id="@+id/days_off_label" android:layout_marginLeft="10dp" android:text="@string/calendar_event_edit_days_off" android:layout_weight="1" style="@style/form_field_label"/>
+        </TableRow>
+        <TableRow android:id="@+id/tableRow2">
+            <EditText android:id="@+id/days_on_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:hint="@string/calendar_event_edit_days_on_hint" android:layout_weight="1" android:inputType="number" style="@style/form_text_field">
+                <requestFocus/>
+            </EditText>
+            <EditText android:id="@+id/days_off_text" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:hint="@string/calendar_event_edit_days_off_hint" android:layout_weight="1" android:inputType="number" style="@style/form_text_field"/>
+        </TableRow>
+    </TableLayout>
+</LinearLayout>

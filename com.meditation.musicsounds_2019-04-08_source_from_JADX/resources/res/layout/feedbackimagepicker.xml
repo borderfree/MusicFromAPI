@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="8dp" android:paddingTop="10dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/feedbackTextView" android:layout_width="wrap_content" android:layout_height="20dp" android:text="@string/feedback_label_photo_library_image"/>
+    <LinearLayout android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <ImageView android:id="@+id/feedbackImageView" android:layout_width="220dp" android:layout_height="220dp" android:src="@drawable/iphoto" android:scaleType="fitStart"/>
+        <Button android:id="@+id/feedbackBtn" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="@string/feedback_btn_pick" android:drawableLeft="@drawable/photos" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

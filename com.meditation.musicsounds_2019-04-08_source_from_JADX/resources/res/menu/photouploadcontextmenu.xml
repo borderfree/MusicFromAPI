@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:id="@+id/camera_menu" android:title="@string/camera_menu"/>
+    <item android:id="@+id/library_menu" android:title="@string/library_menu"/>
+</menu>

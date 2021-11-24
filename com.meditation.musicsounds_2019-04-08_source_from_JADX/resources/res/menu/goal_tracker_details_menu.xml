@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_action_edit_alpha" android:id="@+id/goal_tracker_edit_goal_menu_item" android:title="@string/info" app:showAsAction="always"/>
+</menu>

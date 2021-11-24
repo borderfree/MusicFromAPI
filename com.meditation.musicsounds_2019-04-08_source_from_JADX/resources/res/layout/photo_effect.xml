@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/view_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:id="@+id/linearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/btSend" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photoeffect_button_send" android:layout_weight="0.32"/>
+            <Button android:id="@+id/btOpenCamOrLib" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photoeffect_button_open" android:layout_weight="0.32"/>
+        </LinearLayout>
+        <RelativeLayout android:id="@+id/popmenuLayout" android:visibility="visible" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="0.95">
+            <ImageView android:id="@+id/imgView" android:layout_width="match_parent" android:layout_height="354dp" android:layout_alignParentTop="true" android:layout_alignParentBottom="true"/>
+            <LinearLayout android:orientation="vertical" android:id="@+id/popmenumaskLayout" android:background="@drawable/photoeffect_menu_corner" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+                <LinearLayout android:id="@+id/popmenumaskLayout1_1" android:visibility="visible" android:layout_width="match_parent" android:layout_height="wrap_content">
+                    <Button android:id="@+id/btApply" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photoeffect_button_apply" android:layout_weight="0.33"/>
+                    <Button android:id="@+id/btDelete" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photoeffect_button_delete" android:layout_weight="0.33"/>
+                    <Button android:id="@+id/btChooseMask" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photoeffect_button_choose" android:layout_weight="0.33"/>
+                </LinearLayout>
+                <LinearLayout android:id="@+id/popmenumaskLayout1_2" android:layout_width="match_parent" android:layout_height="match_parent">
+                    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textColor="#000000" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photoeffect_progresbar_alfa"/>
+                    <SeekBar android:id="@+id/AlphaSeekBar" android:layout_width="match_parent" android:layout_height="wrap_content" android:max="255" android:progress="255" android:minHeight="20dp"/>
+                </LinearLayout>
+            </LinearLayout>
+            <LinearLayout android:orientation="horizontal" android:id="@+id/popmenueffectLayout" android:background="@drawable/photoeffect_menu_corner" android:visibility="gone" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_alignParentLeft="true" android:layout_alignParentBottom="true">
+                <Button android:id="@+id/btGrey" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photoeffect_button_grey" android:layout_weight="0.33"/>
+                <Button android:id="@+id/btColor" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photoeffect_button_color" android:layout_weight="0.33"/>
+                <Button android:id="@+id/btSepia" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photoeffect_button_sepia" android:layout_weight="0.33"/>
+            </LinearLayout>
+        </RelativeLayout>
+        <LinearLayout android:id="@+id/linearLayout3" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <Button android:id="@+id/btEffect" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photoeffect_button_effect" android:layout_weight="0.32"/>
+            <Button android:id="@+id/btMask" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/photoeffect_button_mask" android:layout_weight="0.32"/>
+        </LinearLayout>
+    </LinearLayout>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:id="@+id/rotate_to_portrait_textview" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/common_rotate_to_portrait_label" android:layout_centerHorizontal="true" android:layout_centerVertical="true"/>
+    <FrameLayout android:id="@+id/loading_view" android:background="#64000000" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <ProgressBar android:layout_gravity="center" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+    </FrameLayout>
+</RelativeLayout>

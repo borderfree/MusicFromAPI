@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/page_fragment" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent"/>
+    <android.support.p009v4.widget.NestedScrollView android:id="@+id/simulation_container" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_margin="12dp">
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_horizontal" android:id="@+id/simulation_message" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/purchase_simulation_text"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_horizontal" android:id="@+id/target_link" android:paddingTop="8dp" android:paddingBottom="8dp" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </android.support.p009v4.widget.NestedScrollView>
+    <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/status_container" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:id="@+id/status_text" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp" android:text="@string/purchase_processing"/>
+        <ProgressBar android:id="@+id/progress_indicator" android:visibility="visible" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
+        <Button android:textAppearance="?android:attr/textAppearanceLargeInverse" android:id="@+id/retry_button" android:paddingLeft="15dp" android:paddingRight="15dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/purchase_retry"/>
+    </LinearLayout>
+</FrameLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="end" android:orientation="vertical" android:id="@+id/container" android:layout_width="match_parent" android:layout_height="match_parent">
+    <FrameLayout android:id="@+id/fragment_container" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1"/>
+    <LinearLayout android:gravity="right|center_vertical|center_horizontal|center|end" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="?attr/actionBarSize" style="?android:attr/buttonBarStyle">
+        <Button android:id="@+id/agreement_decline_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/horizontal_margin" android:text="@string/agreement_page_button_decline" android:onClick="onDeclineClick" android:layout_marginEnd="@dimen/horizontal_margin" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+        <Button android:id="@+id/agreement_accept_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="@dimen/horizontal_margin" android:text="@string/agreement_page_button_agree" android:onClick="onAgreeClick" android:layout_marginEnd="@dimen/horizontal_margin" style="@style/Widget.AppCompat.Button.Borderless.Colored"/>
+    </LinearLayout>
+</LinearLayout>
