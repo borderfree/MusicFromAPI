@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center_horizontal" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="10">
-    <EditText android:id="@+id/addressET" android:background="@android:drawable/editbox_background" android:layout_width="match_parent" android:layout_height="60dp" android:layout_weight="2" android:inputType="textPostalAddress"/>
-    <com.google.android.maps.MapView android:enabled="true" android:id="@+id/mapView" android:clickable="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="8" android:layout_below="@+id/addressET" android:apiKey="@string/google_maps_api_key"/>
-    <Button android:id="@+id/mapViewBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Use this location." android:layout_weight="2" android:layout_toRightOf="@+id/addressET"/>
-</LinearLayout>

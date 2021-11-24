@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="8dp" android:paddingTop="10dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
-    <TextView android:id="@+id/feedbackTextView" android:layout_width="match_parent" android:layout_height="20dp" android:text="Voice Record:"/>
-    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <ImageButton android:id="@+id/playImageButton" android:layout_width="wrap_content" android:layout_height="wrap_content" android:src="@drawable/ic_media_play_alpha"/>
-        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/textView" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="@string/feedback_no_voice_record" android:freezesText="true" android:layout_weight="1"/>
-        <Button android:id="@+id/feedbackBtn" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="@string/feedback_btn_pick" android:drawableLeft="@drawable/ic_vr_mic_alpha"/>
-    </LinearLayout>
-</LinearLayout>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:icon="@drawable/ic_menu_podcast_cancel_alpha" android:id="@+id/cancel" android:title="@string/podcast_menu_cancel" app:showAsAction="ifRoom"/>
-    <item android:icon="@drawable/ic_menu_podcast_refresh_alpha" android:id="@+id/retry" android:title="@string/podcast_menu_retry" app:showAsAction="ifRoom"/>
-    <item android:icon="@drawable/ic_menu_podcast_share_alpha" android:id="@+id/share" android:title="@string/podcast_menu_share" app:showAsAction="ifRoom"/>
-</menu>

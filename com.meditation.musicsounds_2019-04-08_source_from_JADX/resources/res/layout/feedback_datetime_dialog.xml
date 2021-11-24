@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:layout_gravity="center" android:orientation="vertical" android:id="@+id/DateTimePicker" android:padding="5dp" android:fitsSystemWindows="true" android:layout_width="wrap_content" android:layout_height="wrap_content" android:baselineAligned="true">
-    <com.seattleclouds.modules.sharepoint.DatePicker android:id="@+id/datePicker1" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-    <com.seattleclouds.modules.sharepoint.TimePicker android:id="@+id/timePicker2" android:layout_width="wrap_content" android:layout_height="wrap_content"/>
-    <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content">
-        <Button android:id="@+id/dialogButtonCancel" android:layout_width="80dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:text="@string/cancel"/>
-        <Button android:id="@+id/dialogButtonOK" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_marginTop="5dp" android:layout_marginRight="5dp" android:text="@string/OK"/>
-    </LinearLayout>
-</LinearLayout>

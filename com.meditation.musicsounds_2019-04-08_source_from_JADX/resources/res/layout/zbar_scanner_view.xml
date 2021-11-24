@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
-    <FrameLayout android:id="@+id/camera_preview" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="1"/>
-    <LinearLayout android:layout_gravity="center" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_vertical" android:layout_gravity="left|center_vertical|center_horizontal|center" android:id="@+id/scan_text" android:layout_width="0dp" android:layout_height="match_parent" android:text="@string/barcode_scanner_scanning" android:layout_weight="1"/>
-        <Button android:gravity="center_vertical" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/scan_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/barcode_scanner_scan"/>
-        <Button android:gravity="center_vertical" android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/done_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="10dp" android:text="@string/barcode_scanner_done"/>
-    </LinearLayout>
-</LinearLayout>

@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:icon="@drawable/ic_action_share_alpha" android:id="@+id/share" android:title="@string/scan_document_share" app:showAsAction="ifRoom"/>
-    <item android:id="@+id/delete" android:title="@string/scan_document_delete" app:showAsAction="never"/>
-    <item android:id="@+id/delete_all" android:title="@string/scan_document_delete_all" app:showAsAction="never"/>
-    <item android:id="@+id/generate_pdf" android:title="@string/scan_document_generate_pdf_file" app:showAsAction="never"/>
-</menu>

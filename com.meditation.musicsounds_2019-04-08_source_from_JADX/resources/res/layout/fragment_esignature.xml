@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/container_message" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent">
-    <LinearLayout android:layout_gravity="center" android:orientation="vertical" android:padding="16dp" android:layout_width="match_parent" android:layout_height="wrap_content">
-        <Button android:textSize="18sp" android:gravity="center" android:id="@+id/sign_in_button" android:background="@null" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/control_inset" android:layout_marginTop="@dimen/activity_double_vertical_margin" android:layout_marginRight="@dimen/control_inset" android:text="@string/esignature_action_sign_in" android:textAllCaps="false"/>
-    </LinearLayout>
-</FrameLayout>

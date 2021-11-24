@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:id="@+id/contents" android:title="@string/epubreader_contents"/>
-    <item android:id="@+id/back_to_reading" android:title="@string/epubreader_back_to_reading"/>
-</menu>

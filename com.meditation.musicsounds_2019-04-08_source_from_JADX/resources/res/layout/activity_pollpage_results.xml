@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
-    <LinearLayout android:orientation="vertical" android:id="@+id/rootView" android:paddingTop="@dimen/vertical_margin" android:layout_width="match_parent" android:layout_height="match_parent">
-        <com.seattleclouds.modules.pollpage.Pacpie.C6165Pacpie android:id="@+id/pollpage_pacpie_chart" android:layout_width="match_parent" android:layout_height="200dp" app:lineAntiAlias="true" app:lineDefaultColor="@color/piechart_default_line_color" app:lineStrokeWidth="3" app:sliceAntiAlias="true" app:sliceDefaultColor="@color/piechart_default_slice_color" app:sliceStrokeWidth="0"/>
-        <TextView android:id="@+id/pollpage_total_totes" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/horizontal_margin" android:layout_marginTop="8dp"/>
-        <ListView android:id="@+id/pollpage_answers_listview" android:paddingBottom="@dimen/vertical_margin" android:clipToPadding="false" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="8dp" android:divider="@null"/>
-    </LinearLayout>
-    <TextView android:gravity="center" android:id="@+id/pollpage_error_message" android:paddingLeft="@dimen/horizontal_margin" android:paddingRight="@dimen/horizontal_margin" android:visibility="invisible" android:layout_width="match_parent" android:layout_height="match_parent"/>
-</FrameLayout>

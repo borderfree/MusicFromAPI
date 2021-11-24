@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:icon="@drawable/ic_action_send_alpha" android:id="@+id/signature_stamp_menu_send" android:title="@string/signature_stamp_send" app:showAsAction="ifRoom"/>
-</menu>

@@ -1,6 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="horizontal" android:id="@+id/scoreboard_header_linear_layout" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <Spinner android:id="@+id/scoreboard_f1_scores_picker" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5"/>
-    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center" android:id="@+id/scoreboard_round_title_txt" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="@string/scoreboard_zero" android:layout_weight="4"/>
-    <Spinner android:id="@+id/scoreboard_f2_scores_picker" android:padding="5dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_weight="5"/>
-</LinearLayout>

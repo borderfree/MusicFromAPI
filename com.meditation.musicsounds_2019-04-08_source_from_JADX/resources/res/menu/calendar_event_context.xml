@@ -1,4 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:icon="@drawable/ic_action_delete_alpha" android:id="@+id/calendar_event_delete" android:title="@string/calendar_event_delete" app:showAsAction="ifRoom"/>
-</menu>

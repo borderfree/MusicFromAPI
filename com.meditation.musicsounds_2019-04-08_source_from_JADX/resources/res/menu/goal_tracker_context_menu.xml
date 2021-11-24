@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:id="@+id/goal_tracker_goals_edit_item" android:title="@string/edit"/>
-    <item android:id="@+id/goal_tracker_goals_delete_item" android:title="@string/delete"/>
-</menu>

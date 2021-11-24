@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/loadingContainer" android:background="#a1000000" android:layout_width="match_parent" android:layout_height="match_parent">
-    <ProgressBar android:id="@+id/loadingProgressIndicator" android:layout_width="wrap_content" android:layout_height="wrap_content" android:indeterminate="true" android:layout_centerInParent="true"/>
-    <TextView android:id="@+id/loadingText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/barcode_button_ok" android:layout_below="@+id/loadingProgressIndicator" android:layout_centerHorizontal="true"/>
-</RelativeLayout>

@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
-    <Button android:id="@+id/unlock_button" android:paddingLeft="50dp" android:paddingRight="50dp" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location_lock_unlock" android:layout_centerInParent="true"/>
-    <RelativeLayout android:id="@+id/locating_container" android:layout_width="wrap_content" android:layout_height="match_parent" android:layout_centerInParent="true">
-        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:gravity="center" android:id="@+id/locating_label" android:paddingLeft="16dp" android:paddingRight="16dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/location_lock_locating" android:layout_centerInParent="true"/>
-        <ProgressBar android:id="@+id/progress_bar_location_lock" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_below="@+id/locating_label" android:layout_centerHorizontal="true"/>
-    </RelativeLayout>
-</RelativeLayout>

@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="wrap_content">
-    <Button android:textSize="19sp" android:gravity="center" android:id="@+id/dateButton" android:layout_width="0dp" android:layout_height="wrap_content" android:text="Wed, Jul 19, 2011" android:layout_weight="2"/>
-    <Button android:textSize="19sp" android:gravity="center" android:id="@+id/timeButton" android:layout_width="0dp" android:layout_height="wrap_content" android:text="04:52" android:layout_weight="1"/>
-</LinearLayout>

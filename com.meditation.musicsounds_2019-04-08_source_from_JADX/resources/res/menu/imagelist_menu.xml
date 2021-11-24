@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
-    <item android:icon="@drawable/ic_action_camera_alpha" android:id="@+id/imagelist_add_from_camera" android:title="@string/imagelist_add_from_camera" app:showAsAction="ifRoom"/>
-    <item android:icon="@drawable/ic_action_photo_library_alpha" android:id="@+id/imagelist_add_from_gallery" android:title="@string/imagelist_add_from_gallery" app:showAsAction="ifRoom"/>
-    <item android:icon="@drawable/ic_action_send_alpha" android:id="@+id/imagelist_send_all" android:title="@string/imagelist_send_all" app:showAsAction="ifRoom"/>
-    <item android:icon="@drawable/ic_action_delete_alpha" android:id="@+id/imagelist_delete_all" android:title="@string/imagelist_delete_all" app:showAsAction="ifRoom"/>
-</menu>

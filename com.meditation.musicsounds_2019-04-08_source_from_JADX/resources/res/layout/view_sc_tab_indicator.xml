@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:clickable="true" android:layout_width="0dp" android:layout_height="match_parent" android:layout_weight="1">
-    <ImageView android:id="@+id/tab_icon" android:layout_width="48dp" android:layout_height="32dp" android:layout_marginTop="3dp" android:src="@drawable/calendar" android:scaleType="centerInside" android:layout_alignParentTop="true" android:layout_centerHorizontal="true" android:layout_centerVertical="false"/>
-    <TextView android:textSize="10sp" android:id="@+id/tab_title" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="2dp" android:layout_marginRight="2dp" android:layout_marginBottom="0dp" android:maxLines="1" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
-</RelativeLayout>
