@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/scrollView1" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="1">
+        <LinearLayout android:orientation="vertical" android:id="@+id/linearLayout1" android:padding="5dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="wrap_content">
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save_photo_address" style="@style/form_field_label"/>
+            <EditText android:id="@+id/address" android:layout_width="match_parent" android:layout_height="0dp" android:hint="@string/save_photo_address_hint" android:layout_weight="1" style="@style/form_text_field"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save_photo_location" style="@style/form_field_label"/>
+            <LinearLayout android:id="@+id/location_container" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <EditText android:id="@+id/location" android:focusable="false" android:layout_width="0dp" android:layout_height="wrap_content" android:hint="@string/save_photo_location_hint" android:layout_weight="1" style="@style/form_text_field"/>
+                <Button android:id="@+id/refine_location_button" android:layout_width="wrap_content" android:layout_height="wrap_content" android:drawableLeft="@drawable/ic_map_with_pin"/>
+            </LinearLayout>
+            <LinearLayout android:gravity="right" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginRight="1dp">
+                <TextView android:layout_gravity="right|center_vertical|center_horizontal|center" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:text="@string/save_photo_use_street_address" style="@style/form_field_label"/>
+                <CheckBox android:layout_gravity="right|center_vertical|center_horizontal|center" android:id="@+id/use_street_address" android:layout_width="wrap_content" android:layout_height="wrap_content" android:checked="true"/>
+            </LinearLayout>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save_photo_album" style="@style/form_field_label"/>
+            <Spinner android:id="@+id/folder_spinner" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:layout_marginRight="0.5dp" android:prompt="@string/save_photo_album_spinner_prompt"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save_photo_left_text_prefix" style="@style/form_field_label"/>
+            <Spinner android:id="@+id/left_text_prefix_spinner" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="1dp" android:layout_marginRight="0.5dp" android:prompt="@string/save_photo_left_text_prefix_spinner_prompt"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save_photo_left_text" style="@style/form_field_label"/>
+            <EditText android:id="@+id/left_text" android:layout_width="match_parent" android:layout_height="0dp" android:hint="@string/save_photo_left_text_hint" android:layout_weight="1" style="@style/form_text_field"/>
+            <TextView android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/save_photo_right_text" style="@style/form_field_label"/>
+            <EditText android:id="@+id/right_text" android:layout_width="match_parent" android:layout_height="0dp" android:hint="@string/save_photo_right_text_hint" android:layout_weight="1" style="@style/form_text_field"/>
+        </LinearLayout>
+    </ScrollView>
+    <LinearLayout android:layout_gravity="bottom" android:id="@+id/button_container" android:background="#555555" android:paddingTop="5dp" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_weight="0">
+        <Button android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/save_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/save" android:layout_weight="1"/>
+        <Button android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/cancel_button" android:layout_width="match_parent" android:layout_height="wrap_content" android:text="@string/cancel" android:layout_weight="1"/>
+    </LinearLayout>
+</LinearLayout>

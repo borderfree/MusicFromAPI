@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/login_register_login_scroll_view" android:layout_width="match_parent" android:layout_height="match_parent" android:fillViewport="true">
+    <FrameLayout android:layout_width="match_parent" android:layout_height="match_parent">
+        <ImageView android:layout_gravity="top|center_vertical|center_horizontal|center" android:id="@+id/login_register_login_img" android:layout_width="match_parent" android:layout_height="match_parent" android:scaleType="fitXY"/>
+        <LinearLayout android:orientation="vertical" android:id="@+id/login_register_login_ll" android:layout_width="match_parent" android:layout_height="match_parent">
+            <RelativeLayout android:layout_gravity="center" android:fitsSystemWindows="true" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/login_margin" android:layout_marginTop="50dp" android:layout_marginRight="@dimen/login_margin">
+                <LinearLayout android:orientation="vertical" android:id="@+id/loginForm" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/login_margin" android:layout_marginRight="@dimen/login_margin" android:layout_alignParentTop="true">
+                    <EditText android:id="@+id/login_register_email" android:layout_width="match_parent" android:layout_height="wrap_content" android:hint="@string/login_register_register_email" android:inputType="textEmailAddress" android:windowSoftInputMode="adjustPan"/>
+                    <EditText android:id="@+id/login_register_password" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginTop="30dp" android:hint="@string/login_register_register_password" android:inputType="textPassword" android:windowSoftInputMode="adjustPan"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/keepSignedForm" android:paddingTop="15dp" android:layout_width="match_parent" android:layout_height="60dp" android:layout_marginLeft="@dimen/login_margin" android:layout_marginTop="50dp" android:weightSum="10" android:layout_below="@+id/loginForm">
+                    <TextView android:textSize="18sp" android:id="@+id/lblKeepSigned" android:focusable="false" android:focusableInTouchMode="false" android:clickable="false" android:layout_width="0dp" android:layout_height="wrap_content" android:text="@string/login_register_login_keep_me_signed" android:layout_weight="7"/>
+                    <android.support.p023v7.widget.SwitchCompat android:gravity="center_horizontal" android:id="@+id/swKeepSigned" android:layout_width="0dp" android:layout_height="wrap_content" android:layout_marginLeft="20dp" android:layout_weight="2" android:scaleX="1.8" android:scaleY="1.8"/>
+                </LinearLayout>
+                <RelativeLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="@dimen/login_margin" android:layout_marginTop="30dp" android:layout_marginRight="@dimen/login_margin" android:layout_below="@+id/keepSignedForm">
+                    <Button android:textSize="18sp" android:gravity="center" android:id="@+id/login_register_login_button" android:background="@drawable/button_round_gray" android:layout_width="150dp" android:layout_height="50dp" android:layout_marginTop="10dp" android:text="@string/login_register_login_log_in" android:layout_centerHorizontal="true"/>
+                    <ImageView android:id="@+id/btnFingerPrint" android:layout_width="70dp" android:layout_height="70dp" android:layout_marginLeft="30dp" android:src="@drawable/ic_fingerprint" android:layout_toRightOf="@+id/login_register_login_button" android:layout_alignParentTop="true"/>
+                    <Button android:layout_gravity="center" android:id="@+id/btn_forgot_password" android:background="@android:color/transparent" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="-20dp" android:layout_marginTop="20dp" android:text="@string/login_register_login_forgot_password" android:layout_below="@+id/login_register_login_button" android:layout_centerHorizontal="true"/>
+                </RelativeLayout>
+            </RelativeLayout>
+        </LinearLayout>
+    </FrameLayout>
+</ScrollView>

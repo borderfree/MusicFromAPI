@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:paddingLeft="8dp" android:paddingTop="10dp" android:paddingRight="8dp" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:id="@+id/feedbackTextView" android:layout_width="match_parent" android:layout_height="20dp" android:text="@string/feedback_label_time"/>
+    <LinearLayout android:gravity="center_vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <EditText android:id="@+id/feedbackTextEdit" android:layout_width="0dp" android:layout_height="wrap_content" android:editable="false" android:layout_weight="1" android:inputType="none"/>
+        <Button android:id="@+id/feedbackBtn" android:layout_width="85dp" android:layout_height="wrap_content" android:layout_marginLeft="3dp" android:text="@string/feedback_btn_pick" android:drawableLeft="@drawable/clock"/>
+    </LinearLayout>
+</LinearLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:id="@+id/a" android:background="#e5e5e5" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:id="@+id/LinearLayout1" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <RelativeLayout android:layout_width="match_parent" android:layout_height="250dp">
+            <ImageView android:id="@+id/cover" android:layout_width="184dp" android:layout_height="match_parent" android:scaleType="fitCenter" android:layout_alignParentLeft="true" android:layout_alignParentTop="true"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="20sp" android:textColor="#000" android:id="@+id/title" android:paddingLeft="8dp" android:paddingTop="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="Magazine Name" android:layout_toRightOf="@+id/cover" android:layout_alignParentTop="true"/>
+            <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:textSize="16sp" android:textColor="#777" android:id="@+id/issue" android:paddingLeft="8dp" android:paddingRight="8dp" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="June 10 2013" android:layout_below="@+id/title" android:layout_alignLeft="@+id/title" android:layout_alignParentLeft="false"/>
+            <Button android:textSize="@dimen/magazine_details_action_button_font_size" android:id="@+id/btn_magazine_action" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="8dp" android:layout_marginBottom="8dp" android:minHeight="15dp" android:text="BUY $9.99" android:layout_toRightOf="@+id/cover" android:layout_alignParentBottom="true"/>
+        </RelativeLayout>
+        <TextView android:textSize="15sp" android:textColor="#555" android:gravity="top|left|center_vertical|center_horizontal|center|start" android:id="@+id/description" android:paddingLeft="10dp" android:paddingRight="10dp" android:paddingBottom="10dp" android:layout_width="match_parent" android:layout_height="match_parent" android:text="Text\10\10Multiline"/>
+    </LinearLayout>
+</ScrollView>

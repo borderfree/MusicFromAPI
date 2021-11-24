@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="4">
+        <TextView android:gravity="center" android:id="@+id/quiz_root_title" android:layout_width="match_parent" android:layout_height="0dp" android:layout_marginLeft="15dp" android:layout_marginTop="100dp" android:layout_marginRight="15dp" android:text="@string/quiz_root_quiz_title_hint" android:layout_weight="1"/>
+        <Button android:gravity="center" android:id="@+id/quiz_root_start_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="140dp" android:layout_marginRight="15dp" android:text="@string/quiz_root_start_btn_name"/>
+        <Button android:id="@+id/quiz_root_high_scores_btn" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="15dp" android:layout_marginTop="15dp" android:layout_marginRight="15dp" android:text="@string/quiz_root_highscores_btn_name"/>
+    </LinearLayout>
+    <com.seattleclouds.widget.LoadingView android:id="@+id/quizRootLoadingView" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" app:showLoadingText="true"/>
+</RelativeLayout>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <ScrollView android:id="@+id/quiz_play_answers_container" android:visibility="visible" android:layout_width="match_parent" android:layout_height="match_parent">
+        <LinearLayout android:gravity="center" android:orientation="vertical" android:id="@+id/quiz_play_answers_container_linear" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+    </ScrollView>
+    <RelativeLayout android:id="@+id/quiz_play_feedback_container" android:paddingBottom="10dp" android:visibility="gone" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginLeft="15dp" android:layout_marginRight="15dp">
+        <ScrollView android:id="@+id/quiz_play_feedback_scroll_view" android:paddingLeft="10dp" android:paddingTop="15dp" android:paddingRight="10dp" android:paddingBottom="15dp" android:layout_width="match_parent" android:layout_height="match_parent" android:layout_marginBottom="10dp" android:layout_above="@+id/quiz_play_feedback_next_btn" android:layout_alignParentTop="true">
+            <TextView android:gravity="center" android:id="@+id/quiz_play_feedback_answer_tw" android:layout_width="match_parent" android:layout_height="wrap_content"/>
+        </ScrollView>
+        <Button android:id="@+id/quiz_play_feedback_next_btn" android:layout_width="216dp" android:layout_height="wrap_content" android:text="@string/quiz_play_next_btn_name" android:layout_alignParentBottom="true" android:layout_centerHorizontal="true"/>
+    </RelativeLayout>
+</RelativeLayout>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt">
+    <item android:icon="@drawable/ic_action_add_alpha" android:id="@+id/calendar_event_create_new" android:title="@string/calendar_event_create_new" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/ic_action_today_alpha" android:id="@+id/calendar_select_today_date" android:title="@string/calendar_select_today_date" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/ic_action_agenda_alpha" android:id="@+id/calendar_view_type_agenda" android:title="@string/calendar_view_agenda" app:showAsAction="ifRoom"/>
+    <item android:icon="@drawable/ic_action_month_alpha" android:id="@+id/calendar_view_type_month" android:title="@string/calendar_view_month" app:showAsAction="ifRoom"/>
+    <item android:id="@+id/calendar_info" android:title="@string/calendar_info" app:showAsAction="never"/>
+</menu>

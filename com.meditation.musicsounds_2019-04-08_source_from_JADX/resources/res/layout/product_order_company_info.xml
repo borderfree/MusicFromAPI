@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:orientation="vertical" android:layout_width="match_parent" android:layout_height="match_parent">
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/product_order_company_info"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/product_order_company_info" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/product_order_company_info"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/product_order_company_brief"/>
+    <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:id="@+id/product_order_company_brief" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_margin="5dp" android:text="@string/product_order_company_brief"/>
+</LinearLayout>

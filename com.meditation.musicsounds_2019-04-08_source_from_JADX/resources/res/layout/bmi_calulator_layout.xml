@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:layout_width="match_parent" android:layout_height="match_parent">
+    <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content">
+        <LinearLayout android:orientation="vertical" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginTop="4dp" android:layout_marginRight="4dp" android:layout_marginBottom="10dp">
+            <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:focusableInTouchMode="true" android:descendantFocusability="beforeDescendants" android:layout_width="match_parent" android:layout_height="50dp">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_vertical" android:id="@+id/textView1" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginRight="5dp" android:text="@string/bmi_calculator_height_title_txt_view" android:layout_alignTop="@+id/segmentedController1" android:layout_alignBottom="@+id/segmentedController1" android:layout_alignParentLeft="true"/>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/ftinLayout" android:layout_width="150dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_toRightOf="@+id/textView1" android:layout_centerVertical="true">
+                    <EditText android:id="@+id/ftEditText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1" android:inputType="numberDecimal"/>
+                    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/ftTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bmi_calculator_height_ft_txt_view"/>
+                    <EditText android:id="@+id/inEditText" android:layout_width="wrap_content" android:layout_height="wrap_content" android:ems="10" android:layout_weight="1" android:inputType="numberDecimal"/>
+                    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:id="@+id/inTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bmi_calculator_height_in_txt_view"/>
+                </LinearLayout>
+                <LinearLayout android:orientation="horizontal" android:id="@+id/cmLayout" android:visibility="gone" android:layout_width="160dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_toRightOf="@+id/textView1" android:layout_centerVertical="true">
+                    <EditText android:id="@+id/cmEditText" android:layout_width="130dp" android:layout_height="wrap_content" android:ems="10" android:inputType="numberDecimal"/>
+                    <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_vertical" android:id="@+id/cmTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bmi_calculator_height_cm_txt_view"/>
+                </LinearLayout>
+                <RadioGroup android:orientation="horizontal" android:id="@+id/segmentedController1" android:layout_width="90dp" android:layout_height="wrap_content" android:layout_alignParentRight="true">
+                    <com.seattleclouds.widget.SegmentedControlButton android:id="@+id/option1" android:layout_width="wrap_content" android:layout_marginTop="5dp" android:text="@string/bmi_calculator_height_ft_in_txt_view" style="@style/Widget.Holo.SegmentedControl"/>
+                    <com.seattleclouds.widget.SegmentedControlButton android:id="@+id/option2" android:layout_width="wrap_content" android:layout_marginTop="5dp" android:text="@string/bmi_calculator_height_cm_txt_view" style="@style/Widget.Holo.SegmentedControl"/>
+                </RadioGroup>
+            </RelativeLayout>
+        </LinearLayout>
+        <LinearLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginLeft="4dp" android:layout_marginRight="4dp" android:layout_marginBottom="2dp">
+            <RelativeLayout android:gravity="center_vertical" android:orientation="horizontal" android:layout_width="match_parent" android:layout_height="wrap_content">
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_vertical" android:id="@+id/TextView01" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bmi_calculator_weight_title_txt_view" android:layout_alignTop="@+id/segmentedController2" android:layout_alignBottom="@+id/segmentedController2"/>
+                <EditText android:id="@+id/lbsEditText" android:layout_width="120dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:ems="10" android:layout_toRightOf="@+id/TextView01" android:inputType="numberDecimal"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_vertical" android:id="@+id/lbsTextView" android:layout_width="wrap_content" android:layout_height="wrap_content" android:layout_marginTop="4dp" android:text="@string/bmi_calculator_weight_lbs_txt_view" android:layout_toRightOf="@+id/lbsEditText" android:layout_alignBottom="@+id/lbsEditText" android:layout_alignParentTop="true"/>
+                <EditText android:id="@+id/kgEditText" android:visibility="gone" android:layout_width="130dp" android:layout_height="wrap_content" android:layout_marginLeft="10dp" android:layout_marginTop="5dp" android:ems="10" android:layout_toRightOf="@+id/TextView01" android:inputType="numberDecimal"/>
+                <TextView android:textAppearance="?android:attr/textAppearanceMedium" android:gravity="center_vertical" android:id="@+id/kgTextView" android:visibility="gone" android:layout_width="wrap_content" android:layout_height="wrap_content" android:text="@string/bmi_calculator_weight_kg_txt_view" android:layout_toRightOf="@+id/kgEditText" android:layout_alignBottom="@+id/kgEditText" android:layout_alignParentTop="true"/>
+                <RadioGroup android:orientation="horizontal" android:id="@+id/segmentedController2" android:layout_width="90dp" android:layout_height="wrap_content" android:layout_marginLeft="5dp" android:layout_alignParentRight="true">
+                    <com.seattleclouds.widget.SegmentedControlButton android:id="@+id/option21" android:layout_width="45dp" android:text="@string/bmi_calculator_weight_lbs_txt_view" style="@style/Widget.Holo.SegmentedControl"/>
+                    <com.seattleclouds.widget.SegmentedControlButton android:id="@+id/option22" android:layout_width="45dp" android:text="@string/bmi_calculator_weight_kg_txt_view" style="@style/Widget.Holo.SegmentedControl"/>
+                </RadioGroup>
+            </RelativeLayout>
+        </LinearLayout>
+        <Button android:layout_gravity="center" android:id="@+id/btnCalculate" android:layout_width="220dp" android:layout_height="45dp" android:layout_marginTop="4dp" android:text="@string/bmi_calculator_calculate_button_title"/>
+        <TextView android:textAppearance="?android:attr/textAppearanceLarge" android:textSize="70sp" android:gravity="center" android:id="@+id/resultBMI" android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="4dp" android:text="@string/bmi_calculator_no_result"/>
+        <LinearLayout android:layout_width="match_parent" android:layout_height="wrap_content" android:layout_marginBottom="10dp">
+            <TextView android:textAppearance="?android:attr/textAppearanceSmall" android:gravity="right" android:id="@+id/resultTxt" android:paddingLeft="5dp" android:layout_width="165dp" android:layout_height="130dp" android:text="@string/bmi_calculator_result_place_holder_text"/>
+            <ImageView android:id="@+id/resultImg" android:paddingLeft="5dp" android:paddingRight="5dp" android:layout_width="150dp" android:layout_height="130dp" android:src="@drawable/round_shape_btn" android:contentDescription="@string/info"/>
+        </LinearLayout>
+        <Button android:layout_gravity="center" android:id="@+id/btnClear" android:layout_width="220dp" android:layout_height="45dp" android:layout_marginBottom="10dp" android:text="@string/bmi_calculator_clear_button_title"/>
+    </LinearLayout>
+</ScrollView>

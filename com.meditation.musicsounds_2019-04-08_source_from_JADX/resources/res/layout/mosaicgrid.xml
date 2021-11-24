@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:aapt="http://schemas.android.com/aapt" android:gravity="center" android:orientation="vertical" android:id="@+id/sc_ad_container" android:background="#000000" android:layout_width="match_parent" android:layout_height="match_parent" android:weightSum="1">
+    <android.support.p009v4.widget.SwipeRefreshLayout android:layout_gravity="bottom" android:id="@+id/ptr_layout" android:layout_width="match_parent" android:layout_height="0dp" android:layout_weight="1">
+        <GridView android:gravity="center" android:id="@+id/gridview" android:background="#000000" android:layout_width="match_parent" android:layout_height="0dp" android:stretchMode="columnWidth" android:numColumns="auto_fit" android:layout_weight="1"/>
+    </android.support.p009v4.widget.SwipeRefreshLayout>
+</LinearLayout>
